@@ -10,6 +10,8 @@ def getDataHistory(ticker, hist, inter):
     for time, (open_price, _) in data[['Open', 'Close']].iterrows():
         result.append((time, open_price))
     return result
+def printHello():
+    print("Hello")
 # date = Date(4, 26, 2024)
 # print(date)
 # date.backTime(26, 4, 1)
