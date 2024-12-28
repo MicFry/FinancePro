@@ -2,7 +2,6 @@ from Date import *
 from stockData import *
 class Strategy():
     def __init__(self, buyRSI = 0, sellRSI = 0, initalCash = 10000, numShares = 15):
-        self.buyRSI = buyRSI
         self.sellRSI = sellRSI
         self.currCash = initalCash
         self.amt = 0
